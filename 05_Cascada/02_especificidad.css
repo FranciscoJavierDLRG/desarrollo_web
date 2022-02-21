@@ -3,6 +3,6 @@ body { font-weight: bold;
 
 p#par1 { color:red; }
 
-#par1 { color: blue !important; }
+#par1 { color: blue; }
 
 .parrafo { color: green; }
