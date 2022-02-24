@@ -19,7 +19,7 @@
    width: calc((100% / 3) - 20px);
 }
 
-
+/* 
 #caja1 {
    line-height: calc(1em + 5px);
 }
@@ -30,18 +30,18 @@
 
 #caja3 {
    line-height: calc(1em + 15px);
-}
-
+} */
 
 
 
 @media screen and (min-width:901px) and (max-width:1300px) {
 
    #caja3 {
-      float:none;
+      float: none;
+      position: relative;
       width: calc(100% - 20px);
       clear: left;
-      content: 'Se movio hacia abajo';
+      content: "entro el media query";
    }
 
    #caja1,
@@ -50,6 +50,8 @@
    }
 
 }
+
+
 
 
 @media screen and (max-width:900px) {
