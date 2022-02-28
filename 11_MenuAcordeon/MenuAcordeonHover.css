@@ -10,23 +10,21 @@ ul {
     height: 500px;
 }
 
+/* Inicialmente los submenús estan escondidos */
 ul > li > ul {
     display: none;
 }
 
-ul > li:target > ul {
+/* Los submenús solo se mostrarán cuando el usuario pase el ratón sobre 
+   las opciones (li:hover) */
+ul > li:hover > ul {
     display: block;
     height: 100%;
 }
 
-
 .opcion {
     background: blue;
     color: white;
-}
-
-a { color: white;
-    text-decoration: none;
 }
 
 .subOpcion {
