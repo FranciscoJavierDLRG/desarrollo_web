@@ -17,7 +17,6 @@ div.sidebar {
   overflow: auto;
 }
 
-
 /* Los links se comportaran como bloques*/
 a {
   display: block;
@@ -25,36 +24,19 @@ a {
   padding: 5px;
 }
 
-
 a:hover {
   background-color: blue;
   color: white;
 }
 
-
 /* El area de contenido sera inicialmente posicionada estatica
    ocupara su lugar pero le damos margen para la barra lateral */
 div.content {
-  /* position: relative; */
   background-color: cadetblue;
   margin-left: 200px;
   padding: 1px 16px;
   height: 1500px;
 }
-
-
-#opcion1,
-#opcion2,
-#opcion3,
-#opcion4 { display:none; }
-
-
-#opcion1:target,
-#opcion2:target,
-#opcion3:target,
-#opcion4:target { display: block; }
-
-
 
 
 @media screen and (max-width: 1200px) {
