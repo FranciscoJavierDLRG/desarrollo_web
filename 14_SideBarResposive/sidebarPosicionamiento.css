@@ -38,6 +38,12 @@ div.content {
   height: 1500px;
 }
 
+.contenidoOpcion { display: none; }
+
+#opcion1:target,
+#opcion2:target,
+#opcion3:target,
+#opcion4:target { display: block;}
 
 @media screen and (max-width: 1200px) {
   /* Cambiamos la barra lateral de fixed a relative
