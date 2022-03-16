@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.contenedor {
+    display:flex;
+    width:100vw;
+    height:100vh;
+    background-color: blue;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.caja {
+    width:150px;
+    height:150px;
+    background-color:aqua;
+    margin:10px;
+    text-align:center;
+}
+
+#caja2 { align-self: flex-end;}
+#caja4 { align-self: flex-end;}

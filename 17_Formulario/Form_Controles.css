@@ -8,3 +8,12 @@ legend {
     background-color: yellow;
     font-weight: bold;
 }
+
+[for] {
+    color:blue;
+}
+
+
+[for="nombre"] {
+    color:purple;
+}
