@@ -38,7 +38,7 @@ a:hover { background-color: blue;
   div.sidebar {
     display: flex;
     width: 100%;
-    justify-content:flex-end3;
+    justify-content:space-between;
   }
 }
 
@@ -47,5 +47,6 @@ a:hover { background-color: blue;
   div.sidebar {
     width: 100%;
     flex-direction: column;
+    text-align:center;
   }
 }
