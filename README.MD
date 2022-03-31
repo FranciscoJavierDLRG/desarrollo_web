@@ -27,3 +27,5 @@
 | `06_Boostrap`          | Ejemplos de la rejilla de bootstrap y Formulario Responsivo           |
 | `07_Variables`         | Ejemplos de declaracion de variables `var`, `let` alcance y hoisting  |
 | `08_Eventos`           | Propiedades manejadoras de eventos, Listeners, captura y propagación  |
+| `09_EventosGrid`       | Escucha de eventos en un contenedor grid (Delegacion de eventos)      |
+

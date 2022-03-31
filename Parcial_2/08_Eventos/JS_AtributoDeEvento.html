@@ -38,6 +38,10 @@
                 }
             }
 
+            //Esta variable esta afuera de las funciones, sera global
+            //Y como esta declarada con var se agregra como propiedad del objeti window
+            var miVariableGlobal = 100;
+
             function fn_btn_CambiaBorde() {
                 console.log('cambiaborde');
                 document.getElementById("par1").classList.toggle("bordeAzul");
